@@ -1,0 +1,20 @@
+#aliases
+alias via="vi ~/dotfiles/.alias"
+alias soa=". ~/dotfiles/.alias"
+
+alias ls="/bin/ls -bF --color=auto"
+alias ll="ls -la"
+
+alias cp="/bin/cp -i -r"
+alias mv="/bin/mv -i"
+alias rm="/bin/rm -i -r"
+
+alias ta="tmux attach"
+
+alias gb="git branch -vv"
+alias gl="git log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'"
+alias gr="git remote -vv"
+alias gs="git status"
+alias gsms="git submodule sync"
+alias gsmu="git submodule update --init"
+alias gsmup="git submodule sync --recursive; git submodule update --init --recursive"
