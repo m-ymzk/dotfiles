@@ -18,3 +18,7 @@ alias gs="git status"
 alias gsms="git submodule sync"
 alias gsmu="git submodule update --init"
 alias gsmup="git submodule sync --recursive; git submodule update --init --recursive"
+
+alias pl="pip list -v"
+alias actv=". ./venv/bin/activate"
+alias deactv="deactivate"
