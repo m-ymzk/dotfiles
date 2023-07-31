@@ -10,3 +10,9 @@ ln -s ~/dotfiles/.alias ~/.bash_aliases
 ln -s ~/dotfiles/.tmux.conf ~/
 ln -s ~/dotfiles/.vimrc ~/
 ln -s ~/dotfiles/.vim ~/
+
+# julia-vim install
+pushd ~/.vim
+mkdir -p pack/plugins/start && cd pack/plugins/start
+git clone https://github.com/JuliaEditorSupport/julia-vim.git
+popd
